@@ -5,7 +5,7 @@
 ### Task 1 - Demonstrate that you can write moderately complex SQLs
 ![](db/hr_er.png)
 
- 0. http://54.224.204.130:880/phpmyadmin/
+ 0. http://54.174.37.241:880/phpmyadmin/
  1. Write a query that lists `depart_name`, `city`, `state` , `country`
 
  ```bash
