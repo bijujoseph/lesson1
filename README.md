@@ -20,28 +20,33 @@
  2. Write a query that list `employee name` and `manager name`
 
  ```bash
- +-----------------+----------------+
- | department_name | manager        |
- +-----------------+----------------+
- | Marketing       | Pat Fay        |
- | Purchasing      | Alexander Khoo |
- | Purchasing      | Shelli Baida   |
- | Purchasing      | Sigal Tobias   |
- | Purchasing      | Guy Himuro     |
- +-----------------+----------------+
++------------------+------------------+
+| employee         | manager          |
++------------------+------------------+
+| Neena Kochhar    | Steven King      |
+| Lex De Haan      | Steven King      |
+| Alexander Hunold | Lex De Haan      |
+| Bruce Ernst      | Alexander Hunold |
+| David Austin     | Alexander Hunold |
++------------------+------------------+
  ```
  3. Write a query that list all employees and their department, should also list employees that are not associated with any departments.
 
 ### Task 2 - Security
- 1. http://54.224.204.130:8080/WebGoat/login.mvc
+ 1. http://54.174.37.241:8080/WebGoat/login.mvc
  2. Show me how you could do basic XSS or SQL Injection.
 
 ### Task 3 - Demonstrate that you can write a very simple RESTful webservice
  For this example, we will create a service that manages Departments
  1. Fork this repo
- 2. Create a Node.js/Go server that exposes a RESTFul endpoint
+ 2. Create a Node.js server that exposes a RESTFul endpoint
     - you can use express.js or any other framework of your choice, no need to persist entities in database, you could return hard-code values.
     - Please feel free to refer to any links, tutorials
     - Demonstrate the functionality using a testcase
  3. Push the repository and give me the link or issue a pull request
 
+### Task 3 - Demonstrate that you can invoke a webservice from Angular
+ 1. Say access `http://www.zipcodeapi.com/`
+  ```
+  RN2F6vs4HdIAM9x8jXaKQXhEc5oIo2GfPJVWen1WBJwnS4wc1GXSEfxQkVyIXeYN
+  ```
