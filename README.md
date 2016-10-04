@@ -47,7 +47,7 @@
 
 ### Task 3 - Demonstrate that you can invoke a webservice from Angular
  Key for zipcodeapi - `RN2F6vs4HdIAM9x8jXaKQXhEc5oIo2GfPJVWen1WBJwnS4wc1GXSEfxQkVyIXeYN`
- Sunlinght API Key: `45a77aa041db4ef0887a49a4ac63f05e`
+ Sunlinght API Key: `45a77aa041db4ef4ac63f05e`
  Find the Congressman of your city. For this we will use two publically available service.
   1. Given the city name, find zip codes, make a REST request to zipcodeapi webservice endpoint.ie `https://www.zipcodeapi.com/rest/apikey/city-zips.xml/CITY-NAME/STATE`.
   2. Use a zip code from above result and find legislators, make a REST request to Sunlight congress API endpoint. i.e `https://sunlightlabs.github.io/congress/index.html/legislators/locate/?zip=xxxx&apikey=xxxxx`
