@@ -52,3 +52,6 @@
   1. Given the city name, find zip codes, make a REST request to zipcodeapi webservice endpoint.ie `https://www.zipcodeapi.com/rest/apikey/city-zips.xml/CITY-NAME/STATE`.
   2. Use a zip code from above result and find legislators, make a REST request to Sunlight congress API endpoint. i.e `https://congress.api.sunlightfoundation.com/legislators/locate?zip=xxxx&apikey=xxxxx`
 
+https://www.zipcodeapi.com/rest/CvHcbOm2blI91DfBOEFQJOYQw4kPzEwbadol1Knc66m8JCJxgon0clQJqbyZQ4b0/city-zips.xml/Chantilly/VA
+
+https://congress.api.sunlightfoundation.com/legislators/locate?zip=20152&apikey=45a77aa041db4ef0887a49a4ac63f05e
