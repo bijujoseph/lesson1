@@ -5,7 +5,7 @@
 ### Task 1 - Demonstrate that you can write moderately complex SQLs
 ![](db/hr_er.png)
 
- 0. http://54.224.184.177:880/phpmyadmin/
+ 0. http://54.175.245.30:880/phpmyadmin/
  1. Write a query that lists `depart_name`, `city`, `state` , `country`
 
  ```bash
@@ -33,7 +33,7 @@
  3. Write a query that list all employees and their department, should also list employees that are not associated with any departments.
 
 ### Task 2 - Security
- 1. http://54.224.184.177:8080/WebGoat/login.mvc
+ 1. http://54.175.245.30:8080/WebGoat/login.mvc
  2. Show me how you could do basic XSS or SQL Injection.
 
 ### Task 3 - Demonstrate that you can write a very simple RESTful webservice
