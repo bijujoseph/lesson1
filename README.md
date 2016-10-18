@@ -54,3 +54,5 @@ https://npiregistry.cms.hhs.gov/api/demo
 
 Example GET request for zipcode field:
 https://npiregistry.cms.hhs.gov/api/?postal_code=90210
+
+https://plnkr.co/edit/tpl:AvJOMERrnz94ekVua0u5?p=preview
