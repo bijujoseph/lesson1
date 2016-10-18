@@ -47,10 +47,11 @@
 
 ### Task 4 - Demonstrate that you can invoke a webservice from Angular or React
 
- Find the Congressman of your city. For this we will use two publically available service.
-  1. Given the city name, find zip codes, make a REST request to zipcodeapi webservice endpoint.ie `https://www.zipcodeapi.com/rest/apikey/city-zips.xml/CITY-NAME/STATE`.
-  2. Use a zip code from above result and find legislators, make a REST request to Sunlight congress API endpoint. i.e `https://congress.api.sunlightfoundation.com/legislators/locate?zip=xxxx&apikey=xxxxx`
+Create a small input form to exercise the NPI REST service and return providers for a given input (e.g. zipcode).  After submission, iterate over the results and display the first/last names of the providers, as well as the city/state.
 
-https://www.zipcodeapi.com/rest/CvHcbOm2blI91DfBOEFQJOYQw4kPzEwbadol1Knc66m8JCJxgon0clQJqbyZQ4b0/city-zips.xml/Chantilly/VA
+API console/demo:
 
-https://congress.api.sunlightfoundation.com/legislators/locate?zip=20152&apikey=45a77aa041db4ef0887a49a4ac63f05e
+https://npiregistry.cms.hhs.gov/api/demo
+
+Example GET request for zipcode field:
+https://npiregistry.cms.hhs.gov/api/?postal_code=90210
