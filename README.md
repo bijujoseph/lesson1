@@ -43,7 +43,6 @@
     - you can use express.js or any other framework of your choice, no need to persist entities in database, you could return hard-code values.
     - Please feel free to refer to any links, tutorials
     - Demonstrate the functionality using a testcase
- 3. Push the repository and give me the link or issue a pull request
 
 ### Task 4 - Demonstrate that you can invoke a webservice from Angular or React
 
