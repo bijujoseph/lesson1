@@ -46,7 +46,7 @@
 
 ### Task 4 - Demonstrate that you can invoke a webservice from Angular or React
 
-Create a small input form to exercise the GitHub REST service and return the list of repositories a user. After submission, iterate over the results and display the repository names.
+Create a small input form to exercise the GitHub REST service that returns the list of repositories of a user. After submission, iterate over the results and display the repository names.
 
 API console/demo:
 
