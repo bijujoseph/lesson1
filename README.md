@@ -52,5 +52,5 @@ API console/demo:
 
 https://api.github.com/users/:userId/repos
 
-Example GET request : https://api.github.com/users/TheTechInnovator/repos
+Example GET request : https://api.github.com/users/alphaCoder/repos
 
