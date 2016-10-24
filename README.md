@@ -46,13 +46,11 @@
 
 ### Task 4 - Demonstrate that you can invoke a webservice from Angular or React
 
-Create a small input form to exercise the NPI REST service and return providers for a given input (e.g. zipcode).  After submission, iterate over the results and display the first/last names of the providers, as well as the city/state.
+Create a small input form to exercise the GitHub REST service and return the list of repositories a user. After submission, iterate over the results and display the repository names.
 
 API console/demo:
 
-https://npiregistry.cms.hhs.gov/api/demo
+https://api.github.com/users/:userId/repos
 
-Example GET request for zipcode field:
-https://npiregistry.cms.hhs.gov/api/?postal_code=90210
+Example GET request : https://api.github.com/users/TheTechInnovator/repos
 
-https://plnkr.co/edit/tpl:AvJOMERrnz94ekVua0u5?p=preview
