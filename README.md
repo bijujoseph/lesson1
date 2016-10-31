@@ -5,7 +5,7 @@
 ### Task 1 - Demonstrate that you can write moderately complex SQLs
 ![](db/hr_er.png)
 
- 0. http://52.91.107.123:880/phpmyadmin/
+ 0. http://52.23.249.42:880/phpmyadmin/
  1. Write a query that lists `depart_name`, `city`, `state` , `country`
 
  ```bash
@@ -33,7 +33,7 @@
  3. Write a query that list all employees and their department, should also list employees that are not associated with any departments.
 
 ### Task 2 - Security
- 1. http://52.91.107.123:8080/WebGoat/login.mvc
+ 1. http://52.23.249.42:8080/WebGoat/login.mvc
  2. Show me how you could do basic XSS or SQL Injection.
 
 ### Task 3 - Demonstrate that you can write a very simple RESTful webservice
@@ -52,5 +52,5 @@ API console/demo:
 
 https://api.github.com/users/:userId/repos
 
-Example GET request : https://api.github.com/users/alphaCoder/repos
+Example GET request : https://api.github.com/users/sietekk/repos
 
