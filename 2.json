@@ -1,0 +1,69 @@
+{
+  "programName": "mips",
+  "entityType": "individual",
+  "taxpayerIdentificationNumber": "000456789",
+  "nationalProviderIdentifier": "9876543222",
+  "performanceYear": 2016,
+  "measurementSets": [
+    {
+      "category": "ia",
+      "submissionMethod": "cmsWebInterface",
+      "performanceStart": "2016-01-01",
+      "performanceEnd": "2016-06-01",
+      "measurements": [
+        {
+          "measureId": "IA_EPA_4",
+          "value": true
+        }
+      ]
+    },
+    {
+      "category": "aci",
+      "submissionMethod": "cmsWebInterface",
+      "performanceStart": "2016-01-01",
+      "performanceEnd": "2016-06-01",
+      "measurements": [
+        {
+          "measureId": "ACI_HIE_3",
+          "value": {
+            "numerator": 1,
+            "denominator": 2
+          }
+        },
+        {
+          "measureId": "ACI_PHCDRR_5",
+          "value": true
+        }
+      ]
+    },
+    {
+      "category": "quality",
+      "submissionMethod": "cmsWebInterface",
+      "performanceStart": "2016-01-01",
+      "performanceEnd": "2016-06-01",
+      "measurements": [
+        {
+          "measureId": "2474392",
+          "value": {
+            "isEndToEndReported": false,
+            "strata": [
+              {
+                "performanceMet": 1,
+                "populationTotal": 2,
+                "stratum": "10-50 years old"
+              }
+            ]
+          }
+        },
+        {
+          "measureId": "2082338",
+          "value": {
+            "isEndToEndReported": false,
+            "performanceMet": 1,
+            "populationTotal": 2
+          }
+        }
+      ]
+    }
+  ]
+}
